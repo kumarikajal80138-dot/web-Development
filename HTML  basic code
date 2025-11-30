@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Demo Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            text-align: center;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My HTML GitHub Page</h1>
+        <p>A simple example webpage created using HTML & CSS</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>About This Page</h2>
+            <p>This is a sample HTML webpage you can upload directly to your GitHub repository.  
+               It demonstrates basic structure, styling, and layout.</p>
+        </div>
+
+        <div class="card">
+            <h2>Sample Image</h2>
+            <img src="https://via.placeholder.com/600x300" alt="Sample Image" style="width: 100%; border-radius: 8px;">
+        </div>
+
+        <div class="card">
+            <h2>Try a Button</h2>
+            <p>Click the button below to see a simple action.</p>
+            <a href="#" class="btn">Click Me</a>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2025 My HTML GitHub Page | Designed by Me
+    </footer>
+
+</body>
+</html>
